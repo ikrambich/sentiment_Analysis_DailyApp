@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/chartLayout"
+    android:background="@drawable/backgrondpic"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvSummary"
+        android:layout_width="380dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/border"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
+        android:text="Your Mood Summary"
+        android:textColor="@color/darkPurple"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp" />
+
+
+
+</LinearLayout>

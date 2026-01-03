@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgrondpic"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvQuotesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:text="Your Supportive Quotes 💬"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="10dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/quotesRecyclerView"
+        android:layout_width="371dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="772dp" />
+</LinearLayout>

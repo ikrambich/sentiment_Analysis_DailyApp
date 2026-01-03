@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:padding="0dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/backgrondpic"
+    tools:context=".Login">
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="318dp"
+        android:layout_height="107dp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/pacifico_regular"
+        android:gravity="center"
+        android:text="@string/logIn"
+        android:textColor="@color/lightPurple"
+        android:textSize="40sp"
+
+        android:layout_marginBottom="55dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <EditText
+        android:id="@+id/edEmailLogin"
+        android:layout_width="334dp"
+        android:layout_height="73dp"
+        android:background="@drawable/border"
+        android:drawableStart="@drawable/baseline_email_24"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="20dp"
+
+
+        android:ems="10"
+        android:fontFamily="@font/pacifico_regular"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="20dp"
+        android:textColorHint="@color/lightPurple"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="276dp" />
+
+
+    <EditText
+        android:id="@+id/edPasswordLogin"
+        android:layout_width="334dp"
+        android:layout_height="73dp"
+        android:background="@drawable/border"
+        android:drawableStart="@drawable/lock"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:fontFamily="@font/pacifico_regular"
+        android:layout_marginBottom="20dp"
+
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColorHint="@color/lightPurple"
+
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="379dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="302dp"
+        android:layout_height="73dp"
+        android:fontFamily="@font/pacifico_regular"
+        android:gravity="center"
+        android:text="@string/logIn"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"
+
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="476dp" />
+
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="242dp"
+        android:layout_height="141dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/pacifico_regular"
+        android:gravity="center"
+
+        android:text="@string/tv4"
+        android:textColor="@color/lightPurple"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="563dp" />
+
+
+</LinearLayout>
