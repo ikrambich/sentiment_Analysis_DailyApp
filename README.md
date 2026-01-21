@@ -72,7 +72,7 @@ The app predicts emotions such as:
 
 ---
 
-## Project Structure (Suggested)
+## Project Structure
 ```bash
 .
 ├── android-app/          # Android project (Java)
