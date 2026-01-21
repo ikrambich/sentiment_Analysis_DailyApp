@@ -71,6 +71,9 @@ The app predicts emotions such as:
 5. The mood is saved and visualized over time through a tracking chart.
 
 ---
+## Author
+Ikram Bichbich
+
 
 ## Project Structure
 ```bash
@@ -82,6 +85,3 @@ The app predicts emotions such as:
 ├── screenshots/          # App screenshots
 └── README.md
 
----
-## Author
-Ikram Bichbich
